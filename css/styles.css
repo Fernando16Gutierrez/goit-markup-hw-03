@@ -1136,6 +1136,7 @@ background-color: var(--color-contenedor-bg);
 }
 /*Aca empieza el contenido footer de las principal y portafolio*/
 .footer {
+  padding-top:50px ;
   width: 1200px;
   height: 252px;
   margin-left: auto;
