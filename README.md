@@ -1,2 +1,2 @@
 ### Trabajo 3 - GoIt
-https://fernando16gutierrez.github.io/goit-markup-hw-3 
+ https://github.com/Fernando16Gutierrez/goit-markup-hw-03
