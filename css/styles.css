@@ -772,7 +772,6 @@ background-color: var(--color-contenedor-bg);
 .img-3:hover{
   border: 1px solid red;
   box-shadow: 1px 2px 4px  rgb(0, 0, 0)
-
 }
 .restaurante {
   height: 322px;
