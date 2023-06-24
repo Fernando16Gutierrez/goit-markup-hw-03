@@ -20,24 +20,19 @@ body {
   --color-texto: #212121;
   --color-contenedor-bg: #eeeeee;
   --color-white: rgb(255, 255, 255);
-  --roboto: "Roboto", sans-serif;
-  --Raleway: "Raleway", sans-serif;
 }
 .container{
   width: 1200px;
 }
 body {
   font-family: "Roboto", sans-serif;
+  font-variant: "Raleway", sans-serif;
 }
 /*Aca empieza contenido header*/
 .header {
   width: 1200px;
-  border: 2px solid transparent;
   margin-left: auto;
   margin-right: auto;
-}
-.header:hover {
-  border: 2px solid var(--color-web);
 }
 .icon-header {
   width: 145px;
@@ -51,7 +46,6 @@ body {
 }
 .page-header {
   display: flex;
-  height: 80px;
   list-style: none;
   align-items: center;
 }
@@ -65,13 +59,11 @@ body {
   line-height: 16.41;
   letter-spacing: 2%;
   color: #212121;
-  background-color: transparent;
   margin: 5px;
   margin-left: 100px;
 }
 .links-header:hover {
-  background-color: var(--color-web);
-  color: var(--color-body);
+  color: var(--color-web);
 }
 .page-header-contain {
   width: 1200px;
@@ -93,11 +85,9 @@ body {
   line-height: 16.41;
   letter-spacing: 2%;
   color: #212121;
-  background-color: transparent;
 }
 .links-header-contain:hover {
-  background-color: var(--color-web);
-  color: var(--color-body);
+  color: var(--color-web);
 }
 .redes {
   display: flex;
@@ -145,13 +135,15 @@ body {
   letter-spacing: 3%;
   text-align: center;
   cursor: pointer;
-  padding: 5px 10px;
-  background-color: var(--color-web);
-  border-radius: 10px var(--color-secundario);
+  border-bottom: 3px solid transparent;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px;
 }
 .boton-link:hover {
   background-color: var(--color-web);
   color: white;
+  border-bottom: 3px solid blue;
 }
 
 /*Aca empieza contenido de servicios prestados*/
@@ -342,37 +334,23 @@ body {
   width: 370px;
   height: 404px;
   background-color: var(--color-principal);
-  border: 1px solid var(--color-contenedor-bg);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 01 4px 4px rgba(0, 0, 0, 0.6),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 01 4px 4px rgba(0, 0, 0, 0.6),1px 4px 6px rgba(0, 0, 0, 0.16);
   margin: auto;
-  margin-top: 34px;
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
 .portafolio-link:hover {
   box-shadow: 1px 2px 4px rgb(0, 0, 0);
-  border: 1px solid red;
 }
 .portafolio-img {
   width: 370px;
   height: 294px;
-  padding: 0 1px 0;
-  border: 1px solid transparent;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 01 4px 4px rgba(0, 0, 0, 0.6),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.portafolio-img:hover {
-  border: 1px solid red;
-  box-shadow: 1px 2px 4px rgb(0, 0, 0);
 }
 .portafolio-titulo {
   height: 322px;
-  height: 36px;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 6%;
+  padding: 0 1px 0;
   color: var(--color-texto);
   margin-top: 20px;
   margin-bottom: 4px;
@@ -390,28 +368,28 @@ body {
   color: var(--aplicaciones);
 }
 /*Aca empieza el contenido footer de las principal y portafolio*/
-.footer{
-  padding-top: 50px;
-  width: 1200px;
+.container{
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+}
+.footer-link{
+  display: flex;
+  flex-direction: column;
   height: 252px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--color-secundario);
-  margin-top: 82px;
-}
-.footer-menu {
-  display: flex;
-  flex-direction: column;
 }
 .footer-link-web {
   width: 145px;
-  height: 31px;
   font-family: var(--Raleway);
   font-weight: 700;
   font-size: 26px;
   line-height: 30.52px;
   letter-spacing: 3%;
   color: var(--color-web);
+  margin-top: 50px;
 }
 .footer-link-mex {
   width: 231px;
@@ -421,29 +399,14 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 3%;
-  color: var(--color-principal);
+  color: var(--color-body);
 }
-.footer-redes {
-  display: flex;
-  flex-direction: column;
-}
-.footer-redes-info {
+.footer-link-info {
   width: 231px;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 3%;
-  color: var(--color-principal);
+  color: var(--color-body);
   text-decoration: none;
 }
-/*.foo {
-  width: 231px;
-  top: 2329px;
-  left: 215px;
-  font: weight 400px;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 3%;
-  color: var(--color-principal);
-  text-decoration: none;
-}*/
