@@ -23,20 +23,16 @@ body {
 }
 .container{
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body {
   font-family: "Roboto", sans-serif;
   font-variant: "Raleway", sans-serif;
 }
 /*Aca empieza contenido header*/
-.header {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .icon-header {
   width: 145px;
-  height: 31px;
   font-weight: 700;
   font-size: 26px;
   line-height: 30.52px;
@@ -56,7 +52,6 @@ body {
   width: 49px;
   font-weight: 500px;
   font-size: 14px;
-  line-height: 16.41;
   letter-spacing: 2%;
   color: #212121;
   margin: 5px;
@@ -67,6 +62,7 @@ body {
 }
 .page-header-contain {
   width: 1200px;
+
   display: flex;
   justify-content: end;
   text-decoration: none;
@@ -98,10 +94,9 @@ body {
 }
 .redes-link {
   width: 118px;
-  height: 16px;
   font-weight: 500px;
   font-size: 14px;
-  line-height: 16.41px;
+  line-height: 14px;
   letter-spacing: 2%;
   color: #757575;
   background-color: transparent;
@@ -131,18 +126,17 @@ body {
   width: 38px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 14px;
   letter-spacing: 3%;
   text-align: center;
   cursor: pointer;
+  color: var(--color-texto);
   border-bottom: 3px solid transparent;
-  background-color: transparent;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 10px;
+  padding: 10px 5px;
 }
 .boton-link:hover {
   background-color: var(--color-web);
-  color: white;
   border-bottom: 3px solid blue;
 }
 
@@ -171,20 +165,21 @@ body {
   margin: 0 auto;
 }
 .solicite-nuestro-servicio {
-  width: 197px;
-  height: 30px;
   background-color: var(--color-web);
   font-weight: var(--font-weigth-7);
   font-size: var(--font-size-16p);
-  line-height: 30px;
+  line-height: 14px;
   letter-spacing: 6%;
   text-align: center;
   color: var(--color-principal);
   border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 6px 8px 10px;
   margin-top: 40px;
 }
 .solicite-nuestro-servicio:hover {
   border: 2px solid blue;
+  cursor: pointer;
 }
 /*Aca empieza contenido calidad del servicio*/
 .grupo-1 {
@@ -200,24 +195,22 @@ body {
   top: 801px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16.41px;
+  line-height: 14px;
   text-transform: uppercase;
   letter-spacing: 3%;
   color: var(--color-texto);
 }
 .grupo-1-link {
   width: 270px;
-  height: 75px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 14px;
   letter-spacing: 3%;
   margin-top: 10px;
   color: var(--aplicaciones);
 }
 /*Aca empieza contenido a que nos dedicamos*/
 .a-que-nos-dedicamos {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -233,10 +226,9 @@ body {
 }
 .titulo-dedicamos {
   width: 371.15px;
-  height: 46.24px;
   font-weight: 700;
   font-size: 26px;
-  line-height: 42.19px;
+  line-height: 14px;
   letter-spacing: 3%;
   text-align: center;
   color: var(--color-texto);
@@ -256,7 +248,7 @@ body {
   width: 263px;
   font-weight: 700;
   font-size: 26px;
-  line-height: 42.19px;
+  line-height: 14px;
   letter-spacing: 3%;
   text-align: center;
   color: var(--color-texto);
@@ -265,10 +257,7 @@ body {
   margin-bottom: 50px;
 }
 .nuestro-equipo {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 188px;
-  margin-bottom: 50px;
+  margin: 188px auto 50px auto;
 }
 .nuestro-equipo li {
   margin: 19px;
@@ -279,7 +268,6 @@ body {
 }
 .contenido-link {
   width: 270px;
-  height: 368px;
   margin-right: 208px;
   background-color: var(--color-principal);
   border-radius: 0px 0px 4px 4px;
@@ -288,7 +276,6 @@ body {
 }
 .contenido-img {
   width: 270px;
-  height: 260px;
   top: 1696px;
   left: 208px;
 }
@@ -296,7 +283,7 @@ body {
   width: 118px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 18.75px;
+  line-height: 14px;
   letter-spacing: 3%;
   text-align: center;
   color: var(--color-texto);
@@ -307,7 +294,7 @@ body {
   width: 182px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18.75px;
+  line-height: 14px;
   letter-spacing: 3%;
   text-align: center;
   color: var(--aplicaciones);
@@ -336,19 +323,19 @@ body {
   background-color: var(--color-principal);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 01 4px 4px rgba(0, 0, 0, 0.6),1px 4px 6px rgba(0, 0, 0, 0.16);
   margin: auto;
+  margin-bottom: 10px;
 }
 .portafolio-link:hover {
   box-shadow: 1px 2px 4px rgb(0, 0, 0);
 }
 .portafolio-img {
   width: 370px;
-  height: 294px;
 }
 .portafolio-titulo {
-  height: 322px;
+  width: 322px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 14px;
   letter-spacing: 6%;
   padding: 0 1px 0;
   color: var(--color-texto);
@@ -360,18 +347,16 @@ body {
   width: 322px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 14px;
   letter-spacing: 3%;
   text-decoration: none;
-  margin-bottom: 4px;
-  margin-left: 24px;
+  margin-top: 20px;
+  margin-left: 30px;
   color: var(--aplicaciones);
 }
 /*Aca empieza el contenido footer de las principal y portafolio*/
-.container{
-width: 1200px;
-margin-left: auto;
-margin-right: auto;
+.footer h2{
+  margin-top: 50px;
 }
 .footer-link{
   display: flex;
@@ -380,24 +365,23 @@ margin-right: auto;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--color-secundario);
+  padding-left: 20px;
 }
 .footer-link-web {
   width: 145px;
   font-family: var(--Raleway);
   font-weight: 700;
   font-size: 26px;
-  line-height: 30.52px;
+  line-height: 14px;
   letter-spacing: 3%;
   color: var(--color-web);
-  margin-top: 50px;
 }
 .footer-link-mex {
   width: 231px;
-  height: 21px;
   font-family: var(--Raleway);
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 14px;
   letter-spacing: 3%;
   color: var(--color-body);
 }
@@ -405,7 +389,7 @@ margin-right: auto;
   width: 231px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 14px;
   letter-spacing: 3%;
   color: var(--color-body);
   text-decoration: none;
