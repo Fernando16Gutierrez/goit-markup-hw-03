@@ -31,52 +31,40 @@ body {
   font-variant: "Raleway", sans-serif;
 }
 /*Aca empieza contenido header*/
-.icon-header {
-  font-weight: 700;
+.icon-contain{
   font-size: 26px;
   line-height: normal;
   color: var(--color-web);
   letter-spacing: 3%;
-  text-decoration: none;
-  margin-top: 24px ;
-  margin-bottom: 25px;
+  padding: 24px 0 ;
 }
 .page-header {
   display: flex;
-  list-style: none;
-  align-items: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  justify-content: space-between;
 }
-.page-header a {
-  text-decoration: none;
+.page-header li {
+margin: 32px 93px 32px  0;
 }
 .links-header {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: 2%;
-  color: #212121;
-  margin: 5px;
-  margin-left: 93px;
+  color: var(--color-texto);
 }
 .links-header:hover {
   color: var(--color-web);
 }
 .page-header-contain {
   display: flex;
-  justify-content: end;
-  text-decoration: none;
-  list-style: none;
-  margin-left: auto;
+}
+.page-header-contain li{
+  margin: 32px 0 32px 50px;
 }
 .page-header-contain:hover {
   color: var(--color-body);
 }
 .links-header-contain {
-  margin: 10px;
-}
-.links-header-contain {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: 2%;
   color: #212121;
@@ -84,12 +72,11 @@ body {
 .links-header-contain:hover {
   color: var(--color-web);
 }
-/*Aqui termina termina contenido header*/
+/*Aqui termina contenido header*/
 
 /*Aca empieza barra botones pagina portafolio*/
 .boton {
-  margin-top: 112px;
-  margin-bottom: 56px;
+  padding: 138px 32px 56px  0;
 }
 .link {
   display: flex;
@@ -127,8 +114,6 @@ body {
   height: 600px;
   text-align: center;
   color: var(--color-principal);
-  margin-left: auto;
-  margin-right: auto;
 }
 .color{
   background-color: #2f303a;
@@ -163,11 +148,12 @@ body {
 .grupo-1 {
   display: flex;
   justify-content: space-between;
+}
+.grupo-1-item{
   list-style: none;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 50px;
 }
+
 .grupo-1-titulo {
   top: 801px;
   font-weight: 700;
@@ -186,19 +172,12 @@ body {
   color: var(--aplicaciones);
 }
 /*Aca empieza contenido a que nos dedicamos*/
-.a-que-nos-dedicamos {
-  margin-left: auto;
-  margin-right: auto;
-}
-.img {
-  display: flex;
-}
-.seccion-li {
+.seccion-img {
   display: flex;
   justify-content: center;
 }
-.seccion-li img {
-  margin: 23px;
+.seccion-img img {
+  margin: 20px;
 }
 .titulo-dedicamos {
   font-weight: 700;
@@ -207,17 +186,8 @@ body {
   letter-spacing: 3%;
   text-align: center;
   color: var(--color-texto);
-  margin: auto;
-  margin-top: 99px;
-  margin-bottom: 50px;
+  padding: 115px 0 55px 0;
 }
-.seccion-link {
-  top: 991px;
-  left: 215px;
-  margin-top: 118px;
-  margin: 15px;
-}
-
 /* Aca empieza contenido nuestro equipo*/
 .titulo-equipo {
   font-weight: 700;
@@ -226,19 +196,17 @@ body {
   letter-spacing: 3%;
   text-align: center;
   color: var(--color-texto);
-  margin: 0 auto;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding: 0 0 50px 0 ;
 }
-.nuestro-equipo {
-  margin: 188px auto 50px auto;
+.section{
+  padding: 94px 0;
 }
-.nuestro-equipo li {
-  margin: 19px;
-}
-.contenido {
+.contenido{
   display: flex;
   justify-content: center;
+}
+.contenido > li{
+  margin:20px;
 }
 .contenido-link {
   margin-right: 208px;
@@ -255,7 +223,6 @@ body {
   text-align: center;
   color: var(--color-texto);
   padding-top: 10px;
-  margin: 0 auto;
 }
 .contenido-oficio {
   font-weight: 400;
@@ -265,18 +232,14 @@ body {
   text-align: center;
   color: var(--aplicaciones);
   padding-top: 10px;
-  margin: 0 auto;
+}
+.equipo-link{
+  padding: 30px 10px;
 }
 /*aqui termina contenido nuestro equipo*/
 /*A empieza contenido de la pagina portafolio*/
-.portafolio {
-  list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: var(--color-contenedor-bg);
-}
-.portafolio li {
-  margin: 10px;
+.portafolio .portafolio-link {
+  margin:10px 0 82px 0px;
 }
 .portafolio-menu {
   display: flex;
@@ -286,8 +249,7 @@ body {
 .portafolio-link {
   background-color: var(--color-principal);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 01 4px 4px rgba(0, 0, 0, 0.6),1px 4px 6px rgba(0, 0, 0, 0.16);
-  margin: auto;
-  margin-bottom: 10px;
+  padding: 50px 20px 5px 0;
 }
 .portafolio-link:hover {
   box-shadow: 1px 2px 4px rgb(0, 0, 0);
@@ -299,9 +261,7 @@ body {
   letter-spacing: 6%;
   padding: 0 1px 0;
   color: var(--color-texto);
-  margin-top: 20px;
-  margin-bottom: 4px;
-  margin-left: 24px;
+  padding: 20px 0 10px 25px;
 }
 .portafolio-web {
   font-weight: 400;
@@ -309,21 +269,17 @@ body {
   line-height: 14px;
   letter-spacing: 3%;
   text-decoration: none;
-  margin-top: 20px;
-  margin-left: 30px;
+  padding: 20px 0 20px 25px;
   color: var(--aplicaciones);
 }
 /*Aca empieza el contenido footer de las principal y portafolio*/
-.footer h2{
-  margin-top: 50px;
+.footer a{
+  padding: 50px 0 14px 15px;
 }
 .footer-link{
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
   background-color: var(--color-secundario);
-  padding-left: 20px;
 }
 .footer-link-web {
   font-family: var(--Raleway);
