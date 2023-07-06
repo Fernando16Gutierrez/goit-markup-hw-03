@@ -31,16 +31,23 @@ body {
   font-variant: "Raleway", sans-serif;
 }
 /*Aca empieza contenido header*/
+.border {
+  border-bottom: 0.01px solid black;
+  margin:5px auto  ;
+  
+}
 .icon-contain{
   font-size: 26px;
   line-height: normal;
   color: var(--color-web);
+  font-family: "Raleway";
   letter-spacing: 3%;
   padding: 24px 0 ;
 }
 .page-header {
   display: flex;
   justify-content: space-between;
+  
 }
 .page-header li {
 margin: 32px 93px 32px  0;
@@ -96,9 +103,9 @@ margin: 32px 93px 32px  0;
   text-align: center;
   cursor: pointer;
   color: var(--color-texto);
-  border-bottom: 3px solid transparent;
+  border-bottom: 4px solid transparent;
   border-radius: 10px;
-  padding: 10px 5px;
+  padding: 6px 24px 6px 23px;
 }
 .boton-link:hover {
   background-color: var(--color-web);
@@ -238,30 +245,40 @@ margin: 32px 93px 32px  0;
 }
 /*aqui termina contenido nuestro equipo*/
 /*A empieza contenido de la pagina portafolio*/
-.portafolio .portafolio-link {
-  margin:10px 0 82px 0px;
-}
 .portafolio-menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .portafolio-link {
   background-color: var(--color-principal);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 01 4px 4px rgba(0, 0, 0, 0.6),1px 4px 6px rgba(0, 0, 0, 0.16);
-  padding: 50px 20px 5px 0;
+  margin:30px 0;
 }
+.portafolio-poster{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 6%;
+  color: var(--color-texto); 
+  width: 195px;
+  color: var(--color-texto);
+  margin: 20px 24px 18px 24px;
+}
+
 .portafolio-link:hover {
   box-shadow: 1px 2px 4px rgb(0, 0, 0);
+}
+.portafolio-item{
+  padding: 24px 0;
 }
 .portafolio-titulo {
   font-weight: 700;
   font-size: 18px;
   line-height: 14px;
   letter-spacing: 6%;
-  padding: 0 1px 0;
   color: var(--color-texto);
-  padding: 20px 0 10px 25px;
+  margin: 20px;
 }
 .portafolio-web {
   font-weight: 400;
@@ -269,17 +286,20 @@ margin: 32px 93px 32px  0;
   line-height: 14px;
   letter-spacing: 3%;
   text-decoration: none;
-  padding: 20px 0 20px 25px;
   color: var(--aplicaciones);
+  padding: 20px;
 }
 /*Aca empieza el contenido footer de las principal y portafolio*/
+.color-footer{
+  background-color: var(--color-secundario);
+}
+
 .footer a{
-  padding: 50px 0 14px 15px;
+  margin:   50px  15px 9px  ;
 }
 .footer-link{
   display: flex;
   flex-direction: column;
-  background-color: var(--color-secundario);
 }
 .footer-link-web {
   font-family: var(--Raleway);
@@ -289,14 +309,7 @@ margin: 32px 93px 32px  0;
   letter-spacing: 3%;
   color: var(--color-web);
 }
-.footer-link-mex {
-  font-family: var(--Raleway);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-  letter-spacing: 3%;
-  color: var(--color-body);
-}
+
 .footer-link-info {
   font-weight: 400;
   font-size: 14px;
