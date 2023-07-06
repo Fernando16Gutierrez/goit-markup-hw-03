@@ -31,7 +31,7 @@ body {
   font-variant: "Raleway", sans-serif;
 }
 /*Aca empieza contenido header*/
-.border {
+.border .container{
   border-bottom: 0.01px solid black;
   margin:5px auto  ;
   
@@ -82,16 +82,12 @@ margin: 32px 93px 32px  0;
 /*Aqui termina contenido header*/
 
 /*Aca empieza barra botones pagina portafolio*/
-.boton {
-  padding: 138px 32px 56px  0;
-}
 .link {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-.link a {
-  margin: 40px;
+.link li {
+  margin: 144px 56px 31px 0;
 }
 .boton-link {
   color: var(--color-texto);
@@ -109,7 +105,7 @@ margin: 32px 93px 32px  0;
 }
 .boton-link:hover {
   background-color: var(--color-web);
-  border-bottom: 3px solid blue;
+  border-bottom: 4px solid blue;
 }
 
 /*Aca empieza contenido de servicios prestados*/
@@ -122,7 +118,7 @@ margin: 32px 93px 32px  0;
   text-align: center;
   color: var(--color-principal);
 }
-.color{
+.color .container{
   background-color: #2f303a;
 }
 .soluciones-eficases {
@@ -220,7 +216,7 @@ margin: 32px 93px 32px  0;
   background-color: var(--color-principal);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
-    0 2px 1px rgba(0, 0, 0, 0.2);
+  0 2px 1px rgba(0, 0, 0, 0.2);
 }
 .contenido-nombre {
   font-weight: 500;
@@ -290,27 +286,23 @@ margin: 32px 93px 32px  0;
   padding: 20px;
 }
 /*Aca empieza el contenido footer de las principal y portafolio*/
-.color-footer{
+.color-footer .container{
   background-color: var(--color-secundario);
 }
-
-.footer a{
-  margin:   50px  15px 9px  ;
-}
-.footer-link{
-  display: flex;
-  flex-direction: column;
-}
-.footer-link-web {
-  font-family: var(--Raleway);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 14px;
-  letter-spacing: 3%;
-  color: var(--color-web);
-}
-
 .footer-link-info {
+  padding:9px 0;
+}
+.icon-footer{
+  font-size: 26px;
+  line-height: normal;
+  color: var(--color-web);
+  font-family: "Raleway";
+  letter-spacing: 3%;
+}
+.footer .footer-link {
+  padding: 60px 0;
+}
+.footer-link-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
