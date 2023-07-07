@@ -90,8 +90,7 @@ margin: 32px 93px 32px  0;
   margin: 144px 56px 31px 0;
 }
 .boton-link {
-  color: var(--color-texto);
-  background-color: transparent;
+  background-color:color(0xFF212121);
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -99,13 +98,13 @@ margin: 32px 93px 32px  0;
   text-align: center;
   cursor: pointer;
   color: var(--color-texto);
-  border-bottom: 4px solid transparent;
   border-radius: 10px;
   padding: 6px 24px 6px 23px;
 }
 .boton-link:hover {
   background-color: var(--color-web);
-  border-bottom: 4px solid blue;
+  color: white;
+  opacity: var(--color-rojo);
 }
 
 /*Aca empieza contenido de servicios prestados*/
@@ -118,7 +117,7 @@ margin: 32px 93px 32px  0;
   text-align: center;
   color: var(--color-principal);
 }
-.color .container{
+.color {
   background-color: #2f303a;
 }
 .soluciones-eficases {
@@ -210,6 +209,7 @@ margin: 32px 93px 32px  0;
 }
 .contenido > li{
   margin:20px;
+  border-bottom: 3px solid black;
 }
 .contenido-link {
   margin-right: 208px;
@@ -251,15 +251,14 @@ margin: 32px 93px 32px  0;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 01 4px 4px rgba(0, 0, 0, 0.6),1px 4px 6px rgba(0, 0, 0, 0.16);
   margin:30px 0;
 }
-.portafolio-poster{
+.portafolio-titulo{
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 6%;
   color: var(--color-texto); 
-  width: 195px;
-  color: var(--color-texto);
-  margin: 20px 24px 18px 24px;
+  width: px;
+  margin: 20px ;
 }
 
 .portafolio-link:hover {
@@ -267,14 +266,16 @@ margin: 32px 93px 32px  0;
 }
 .portafolio-item{
   padding: 24px 0;
+  border-bottom: 1px solid black;
 }
-.portafolio-titulo {
+.portafolio-poster {
   font-weight: 700;
   font-size: 18px;
-  line-height: 14px;
+  line-height: 36px;
   letter-spacing: 6%;
   color: var(--color-texto);
-  margin: 20px;
+  width: 195px;
+  margin:  18px 0 17px 24px;
 }
 .portafolio-web {
   font-weight: 400;
@@ -283,10 +284,10 @@ margin: 32px 93px 32px  0;
   letter-spacing: 3%;
   text-decoration: none;
   color: var(--aplicaciones);
-  padding: 20px;
+  margin:  20px ;
 }
 /*Aca empieza el contenido footer de las principal y portafolio*/
-.color-footer .container{
+.color-footer {
   background-color: var(--color-secundario);
 }
 .footer-link-info {
